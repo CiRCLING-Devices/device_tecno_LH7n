@@ -1,7 +1,7 @@
 #
-# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-FileCopyrightText: The Infinity-X Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_LH7n.mk
+    $(LOCAL_DIR)/infinity_LH7n.mk
