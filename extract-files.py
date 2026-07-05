@@ -1,6 +1,6 @@
 #!/usr/bin/env -S PYTHONPATH=../../../tools/extract-utils python3
 #
-# SPDX-FileCopyrightText: The Infinity-X Project
+# SPDX-FileCopyrightText: Project CiRCLE
 # SPDX-License-Identifier: Apache-2.0
 #
 

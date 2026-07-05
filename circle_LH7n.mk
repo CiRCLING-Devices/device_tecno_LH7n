@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: The Infinity-X Project
+# SPDX-FileCopyrightText: Project CiRCLE
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -10,18 +10,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/tecno/LH7n/device.mk)
 
-# Inherit some common Infinity-X stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+# Inherit some common Project CiRCLE stuff.
+$(call inherit-product, vendor/circle/config/common_full_phone.mk)
 
-# Infinity-X Specific Flags
-INFINITY_BUILD_TYPE := OFFICIAL
-INFINITY_MAINTAINER := "akif"
-TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GAPPS := true
-TARGET_SUPPORTS_BLUR := true
+# Project CiRCLE Specific Flags
+CIRCLE_MAINTAINER := akif
 
 BOARD_VENDOR := TECNO
-PRODUCT_NAME := infinity_LH7n
+PRODUCT_NAME := circle_LH7n
 PRODUCT_DEVICE := LH7n
 PRODUCT_MANUFACTURER := TECNO
 PRODUCT_BRAND := TECNO

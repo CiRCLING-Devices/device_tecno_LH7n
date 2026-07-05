@@ -1,0 +1,47 @@
+[
+  {
+    "repository": "device_tecno_LH7n-kernel",
+    "target_path": "device/tecno/LH7n-kernel"
+  },
+  {
+    "repository": "vendor_tecno_LH7n",
+    "target_path": "vendor/tecno/LH7n"
+  },
+  {
+    "remote": "github",
+    "repository": "MilleniumOSS/android_device_millennium_common-kernel",
+    "target_path": "device/millennium/common-kernel",
+    "branch": "sixteen-qpr2"
+  },
+  {
+    "remote": "github",
+    "repository": "MilleniumOSS/android_hardware_mediatek",
+    "target_path": "hardware/mediatek",
+    "branch": "sixteen"
+  },
+  {
+    "remote": "github",
+    "repository": "MilleniumOSS/android_hardware_millennium",
+    "target_path": "hardware/millennium",
+    "branch": "sixteen"
+  },
+  {
+    "remote": "github",
+    "repository": "MilleniumOSS/android_device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr",
+    "branch": "sixteen-qpr2-rebase"
+  },
+  {
+    "remote": "github",
+    "repository": "MilleniumOSS/android_vendor_mediatek_ims",
+    "target_path": "vendor/mediatek/ims",
+    "branch": "sixteen-oem"
+  },
+  {
+    "remote": "github",
+    "repository": "MilleniumOSS/android_vendor_sony_dolby",
+    "target_path": "vendor/sony/dolby",
+    "branch": "sixteen-redesign"
+  }
+]
+

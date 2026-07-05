@@ -93,10 +93,3 @@ wifi.tethering.interface=ap0
 
 # Zygote
 zygote.critical_window.minute=10
-
-#Infinity Flags
-ro.product.marketname=Tecno Pova 5
-ro.infinity.soc=Mediatek Helio G99
-ro.infinity.battery=6000 mAh
-ro.infinity.display=1080 x 2460, 120 Hz
-ro.infinity.camera=50MP + 0.08MP
